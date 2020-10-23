@@ -1,9 +1,11 @@
 import React from 'react';
 
-function About(props) {
+function About() {
     return (
-        <div>
-            About
+        <div className="about">
+            <div className="section">
+                About
+            </div>
         </div>
     );
 }
