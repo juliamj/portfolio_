@@ -1,0 +1,98 @@
+.about {
+    /* background-color: aquamarine; */
+    margin-top: 10%;
+    min-height: 80vh;
+}
+
+/* ABOUT LEFT */
+
+.profile-picture{
+	border-radius: 10%;
+	width: 150px;
+	height: 150px;
+	box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+    transition: all ease-in-out .2s;
+}
+.c-social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+.social-icon {
+    /* padding-left: 15px; */
+    padding-top: 15px;
+    color: rgba(12, 56, 107, 0.308);
+    /* color: rgba(24, 92, 156, 0.418); */
+    font-size: 1.2rem;
+}
+.social-icon:hover {
+    color: rgba(228, 222, 135, 0.61);
+    cursor: pointer;
+}
+/* ABOUT RIGHT */
+.about-right {
+    /* min-height: 100vh; */
+    height: 100%;
+  }   
+.text-big {
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 5rem;
+    font-weight: bold;
+  }
+  .text-md-vw {
+    font-size: 2vw;
+  }
+
+  @media only screen and (min-width:1120px) {
+    .text-md-vw {
+        font-size: 1.5rem;
+      }
+  }
+@media only screen and (min-width:781px) {
+    .flex {
+      display: flex;
+    }
+    .newline {
+      display: block;
+    }
+    .about-right {
+        border-left: 3px solid rgba(12, 56, 107, 0.089);
+      }
+    .about-right p {
+    margin-left: 2rem;
+} 
+  }
+
+@media only screen and (max-width:780px) {
+    .about-left {
+        display: flex;  /* in order to place icons and picture next to each other in smaller screens */
+        flex-direction: row-reverse;
+        justify-content: space-around;
+      }
+    .profile-picture {
+        width: 50vw;
+        height: 50vw;
+    }
+    .c-social-icons {
+        display: flex;
+        flex-direction: column;
+    }
+    .social-icon {
+        color: rgba(12, 56, 107, 0.308);
+        font-size: 1.6rem;
+        padding-right: 6rem;
+        padding-left: 1rem;
+    }
+    .social-icon:hover {
+    color: rgba(228, 222, 135, 0.767);
+    }
+    .text-big {
+        font-size: 2.1rem;
+        margin-top: 6rem;
+        text-align: center;
+        margin-left: 0;
+      }
+      .text-md-vw {
+        font-size: 3vw;
+      }
+}

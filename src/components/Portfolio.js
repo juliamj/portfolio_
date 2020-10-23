@@ -2,8 +2,10 @@ import React from 'react';
 
 function Portfolio(props) {
     return (
-        <div>
-            Portfolio
+        <div className="portfolio">
+            <div className="section">
+                Portfolio
+            </div>
         </div>
     );
 }
