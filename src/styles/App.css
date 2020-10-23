@@ -1,11 +1,36 @@
 .App {
   margin: auto;
-  color: rgba(0, 0, 0, 0.74);
+  color: rgba(0, 0, 0, 0.664);
+  /* font-size: 12px; */
 }
 
 .section {
   width: 70vw;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
   background-color: white;
+}
+
+.highlight-blue {
+  color: rgba(24, 92, 156, 0.418);
+  font-weight: bold;  
+}
+.highlight-light {
+  color: rgba(228, 222, 135, 0.61);
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+}
+@media only screen and (max-width:780px) {
+  .section {
+    width: 95%;
+    margin: auto;
+  }
+.paragraph {
+  text-align: center;
+}
 }
