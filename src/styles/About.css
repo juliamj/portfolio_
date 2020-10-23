@@ -1,7 +1,7 @@
 .about {
     /* background-color: aquamarine; */
     margin-top: 10%;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 /* ABOUT LEFT */
@@ -30,7 +30,7 @@
 }
 /* ABOUT RIGHT */
 .about-right {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     height: 100%;
   }   
 .text-big {
