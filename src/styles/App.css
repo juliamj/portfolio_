@@ -35,3 +35,16 @@
   text-align: center;
 }
 }
+
+.nobull {
+  list-style-type: none;
+}
+.text-big {
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 5rem;
+  font-weight: bold;
+}
+.text-md-vw {
+  font-size: 2vw;
+}
