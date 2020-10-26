@@ -1,3 +1,52 @@
 .portfolio {
-    background-color: rgba(211, 209, 108, 0.541);
+    /* background-color: rgba(206, 231, 235, 0.541); */
+}
+
+.project-container {
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+    transition: all ease-in-out .2s;
+    display: flex;
+}
+.project-left {
+    width: 60%;
+}
+
+.project-right {
+    width: 40%;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.view-project {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    background-color: rgba(24, 92, 156, 0.034);
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.view-project a {
+    color:  rgba(0, 0, 0, 0.664);
+}
+.view-project a:hover {
+    text-decoration: underline;
+    color:  rgba(0, 0, 0, 0.560)
+}
+.project-left h2 {
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 0.2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.tech-stack {
+    display: flex;
+}
+
+.project-container:hover {
+    background-color: rgba(183, 238, 229, 0.425);
 }
