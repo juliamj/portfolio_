@@ -4,7 +4,7 @@ function Skills(props) {
     return (
         <div className="skills">
             <div className="section">
-                <h1 className="text-big">Skills</h1>
+                <h1 className="text-big">My Technical Skills</h1>
                 <div className="skills-flex-container">
                     <div className="skills-flex">
                         <div>
