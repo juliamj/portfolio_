@@ -1,11 +1,21 @@
 .portfolio {
     /* background-color: rgba(206, 231, 235, 0.541); */
 }
-
+.section-projects {
+    width: 70vw;
+    min-height: 100vh;
+    margin: auto;
+    /* background-color: white; */
+    /* margin-top: 5%; */
+  }
+/* @media only screen and (min-width:1081px) { */
 .project-container {
     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
     transition: all ease-in-out .2s;
     display: flex;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .project-left {
     width: 60%;
@@ -13,10 +23,38 @@
 
 .project-right {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+/* } */
+@media only screen and (max-width:1080px) {
+.project-left h2 {
+    font-size: 2vw;
+}
+.tech-stack li {
+    font-size: 2vw;
+}
+.section-projects {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+
+
+
+.project-container:hover {
+    /* background-color: rgba(183, 238, 229, 0.425); */
+    background-color: rgba(228, 222, 135, 0.24);
+    width: 95%;
+}
+
 
 .project-image {
     width: 100%;
+    margin-top: 30px;
+    /* padding-right: 30px; */
 }
 
 .view-project {
@@ -47,6 +85,9 @@
     display: flex;
 }
 
-.project-container:hover {
-    background-color: rgba(183, 238, 229, 0.425);
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
