@@ -33,16 +33,6 @@
     /* min-height: 100vh; */
     height: 100%;
   }   
-.text-big {
-    font-size: 2.5rem;
-    letter-spacing: 0.1rem;
-    line-height: 5rem;
-    font-weight: bold;
-  }
-  .text-md-vw {
-    font-size: 2vw;
-  }
-
   @media only screen and (min-width:1120px) {
     .text-md-vw {
         font-size: 1.5rem;
