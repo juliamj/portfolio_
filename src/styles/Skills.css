@@ -28,6 +28,16 @@
   @media only screen and (min-width:567px) {
     .skills-flex-container {
       display: flex;
+      justify-content: space-around;
+    }
+    .skills-flex {
+        width: 50%;
+        justify-content: space-around;
+    }
+  }
+  @media only screen and (max-width:780px) {
+    .skills-flex-container {
+        justify-content: center;
     }
   }
   @media only screen and (max-width:567px) {
