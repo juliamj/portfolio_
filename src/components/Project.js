@@ -18,13 +18,25 @@ function Project(props) {
                     {skills.map((skill) =>
                         <li className="mr-3"><span>{skill}</span></li>)}
                 </ul>
+                {/* <div>
+                    {props.preview === undefined ? (<div className="view-project"><a className="link live" href={props.live} target="_blank">VIEW LIVE</a>
+                    <a className="link" href={props.code} target="_blank">CODE</a></div>) : 
+                    (<div className="view-project"><a className="link" href={props.preview} target="_blank">PREVIEW</a>
+                    <a className="link live" href={props.live} target="_blank">VIEW LIVE</a>
+                    <a className="link" href={props.code} target="_blank">CODE</a></div>)
+                    }
+                </div> */}
+
             </div>
             <div className="project-right">
-                <img className="project-image" src={props.img} />
-                <div className="view-project nobull">
-                    <a href={props.preview} target="_blank">preview</a>
-                    <a href={props.live} target="_blank">view live</a>
-                    <a href={props.code} target="_blank">code</a>
+            <a className="image-hover" href={props.live} target="_blank"><img className="project-image" src={props.img} /></a>
+                <div>
+                    {props.preview === undefined ? (<div className="view-project"><a className="link live" href={props.live} target="_blank">VIEW LIVE</a>
+                    <a className="link" href={props.code} target="_blank">CODE</a></div>) : 
+                    (<div className="view-project"><a className="link" href={props.preview} target="_blank">PREVIEW</a>
+                    <a className="link live" href={props.live} target="_blank">VIEW LIVE</a>
+                    <a className="link" href={props.code} target="_blank">CODE</a></div>)
+                    }
                 </div>
             </div>
         </div>

@@ -29,12 +29,6 @@
 /* } */
 
 @media only screen and (max-width:1080px) {
-.project-left h2 {
-    font-size: 2vw;
-}
-.tech-stack li {
-    font-size: 2vw;
-}
 .section-projects {
     width: 95%;
     margin: auto;
@@ -66,12 +60,15 @@
     font-size: 1rem;
 }
 
-.view-project a {
+.link {
     color:  rgba(0, 0, 0, 0.664);
 }
-.view-project a:hover {
+.link:hover {
     text-decoration: underline;
     color:  rgba(0, 0, 0, 0.560)
+}
+.image-hover:hover + div div a.live {
+    text-decoration: underline;
 }
 .project-left h2 {
     /* text-align: center; */

@@ -19,7 +19,7 @@ function Portfolio(props) {
                         skill4="Bootstrap"
                         skill5="React Bootstrap"
                         img={lola}
-                        preview=""
+                        preview="hhh"
                         live="https://lola-tandem.netlify.app/"
                         code="https://github.com/juliamj/Lola-client"
                     />
@@ -29,7 +29,7 @@ function Portfolio(props) {
                         skill1="React.js"
                         skill2="Grommet"
                         img={colorful}
-                        preview=""
+                        // preview=""
                         live="https://colorful-app.netlify.app/"
                         code="https://github.com/juliamj/colorful"
                     />
@@ -39,7 +39,7 @@ function Portfolio(props) {
                         skill1="React.js"
                         skill2="Contentful as CMS"
                         img={cms}
-                        preview=""
+                        // preview=""
                         live="https://how-not-to-cook-recipes.netlify.app/"
                         code="https://www.github.com/juliamj/recipes_group4"
                     />
