@@ -1,86 +1,23 @@
 .portfolio {
-    /* background-color: rgba(206, 231, 235, 0.541); */
+    background-color: rgba(206, 231, 235, 0.219);
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 .section-projects {
     width: 70vw;
     min-height: 100vh;
     margin: auto;
   }
-/* @media only screen and (min-width:1081px) { */
-.project-container {
+  .project-container {
+    background-color: rgba(255, 255, 255, 0.295);
     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
     transition: all ease-in-out .2s;
-    display: flex;
-    width: 90%;
-    /* text-align: center; */
     margin-bottom: 50px;
     font-size: 12px;
 }
-.project-left {
-    width: 60%;
-}
-
-.project-right {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-/* } */
-
-@media only screen and (max-width:1080px) {
-.section-projects {
-    width: 95%;
-    margin: auto;
-  }
-}
-
-
-
-
 .project-container:hover {
-    /* background-color: rgba(183, 238, 229, 0.425); */
-    background-color: rgba(228, 222, 135, 0.24);
-    width: 91%;
-}
-
-
-.project-image {
-    width: 100%;
-    margin-top: 30px;
-    /* padding-right: 30px; */
-}
-
-.view-project {
-    display: flex;
-    justify-content: space-around;
-    font-weight: bold;
-    background-color: rgba(24, 92, 156, 0.034);
-    padding: 10px;
-    font-size: 1rem;
-}
-
-.link {
-    color:  rgba(0, 0, 0, 0.664);
-}
-.link:hover {
-    text-decoration: underline;
-    color:  rgba(0, 0, 0, 0.560)
-}
-.image-hover:hover + div div a.live {
-    text-decoration: underline;
-}
-.project-left h2 {
-    /* text-align: center; */
-    margin: 30px 0 10px 40px;
-    letter-spacing: 0.2rem;
-    font-size: 3em;
-    font-weight: bold;
-
-}
-.description {
-    font-size: 1.4em;
-    margin: 20px 30px 40px 40px;
+    background-color: rgba(206, 231, 235, 0.219);
+    /* background-color: rgba(228, 222, 135, 0.24); */
 }
 
 .tech-stack {
@@ -100,6 +37,126 @@
 .tech-stack li {
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width:780px) {
+    .project-container {
+        width: 60%;
+    }
+    .project-container:hover {
+        width: 61%;
+    }
+    
+    .project-image{
+        padding: 0 40px;
+        width: 100%;
+    }
+    .project-left h2 {
+        margin: 30px 0 10px 40px;
+        letter-spacing: 0.2rem;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    .tech-stack li span {
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width:540px) {
+    .project-container {
+        width: 90%;
+    }
+    .project-container:hover {
+        width: 91%;
+    }
+    
+    .project-image{
+        padding: 0 40px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:781px) {
+.project-container {
+    display: flex;
+    width: 90%;
+}
+.project-container:hover {
+    width: 91%;
+}
+.project-left {
+    width: 60%;
+}
+
+.project-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.project-image {
+    width: 100%;
+    margin-top: 30px;
+    /* padding-right: 30px; */
+}
+.project-left h2 {
+    margin: 30px 0 10px 40px;
+    letter-spacing: 0.2rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+}
+
+@media only screen and (min-width:1600px) {
+    .project-container {
+        width: 1010px;
+    }
+    .project-container:hover {
+        width: 1020px
+    }
+}
+
+@media only screen and (max-width:1200px) {
+.section-projects {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+
+.view-project {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    /* background-color: rgba(24, 92, 156, 0.034); */
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.link {
+    /* color:  rgba(0, 0, 0, 0.664); */
+    color: rgba(24, 92, 156, 0.418);
+    font-weight: 400;  
+}
+.link:hover {
+    text-decoration: underline;
+    /* color:  rgba(0, 0, 0, 0.560); */
+    color: rgba(24, 92, 156, 0.76);
+}
+.image-hover:hover + div div a.live {
+    text-decoration: underline;
+    color: rgba(24, 92, 156, 0.76);
+}
+/* .project-left h2 {
+    margin: 30px 0 10px 40px;
+    letter-spacing: 0.2rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+} */
+.description {
+    font-size: 1.4em;
+    margin: 20px 30px 40px 40px;
+}
+
+
 
 .projects {
     display: flex;
