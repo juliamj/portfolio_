@@ -26,6 +26,7 @@
   letter-spacing: 0.1rem;
   line-height: 2rem;
 }
+
 @media only screen and (max-width:780px) {
   .section {
     width: 95%;
@@ -59,7 +60,6 @@
 
 @media only screen and (max-width:1200px) {
   .heading {
-    margin-top: 6rem;
     text-align: center;
     margin-left: 0;
   }
