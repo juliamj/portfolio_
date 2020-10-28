@@ -1,8 +1,7 @@
 .skills {
     background-color: rgba(24, 92, 156, 0.418);
     padding-top: 10vh;
-    /* padding-bottom: 20vh; */
-    min-height: 100vh;
+    padding-bottom: 10vh;
     color: white;
 }
 
@@ -73,6 +72,6 @@
         font-size: 0.6rem;
     }
     .skills li {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
   }

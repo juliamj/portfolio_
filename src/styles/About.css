@@ -2,6 +2,7 @@
     /* background-color: aquamarine; */
     margin-top: 10%;
     min-height: 90vh;
+    /* margin-bottom: 10vh; */
 }
 
 /* ABOUT LEFT */
@@ -101,5 +102,8 @@
       }
       .text-md-vw {
         font-size: 3vw;
+      }
+      .paragraph {
+        font-size: 0.8em;
       }
 }
