@@ -16,7 +16,7 @@ import './styles/Footer.css';
 function App() {
   return (
     <div className="App">
-        <Nav />
+        {/* <Nav /> */}
         <About />
         <Skills />
         <Portfolio />
