@@ -19,7 +19,6 @@ function Portfolio(props) {
                         skill4="Bootstrap"
                         skill5="React Bootstrap"
                         img={lola}
-                        preview="hhh"
                         live="https://lola-tandem.netlify.app/"
                         code="https://github.com/juliamj/Lola-client"
                     />
