@@ -1,6 +1,7 @@
 .portfolio {
     background-color: rgba(206, 231, 235, 0.219);
-    padding-top: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     /* padding-bottom: 20vh; */
     /* height: 100vh; */
 }
