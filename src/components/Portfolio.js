@@ -19,6 +19,7 @@ function Portfolio(props) {
                         skill4="Bootstrap"
                         skill5="React Bootstrap"
                         img={lola}
+                        // preview="PREVIEW"
                         live="https://lola-tandem.netlify.app/"
                         code="https://github.com/juliamj/Lola-client"
                     />
@@ -28,7 +29,7 @@ function Portfolio(props) {
                         skill1="React.js"
                         skill2="Grommet"
                         img={colorful}
-                        // preview=""
+                        preview=""
                         live="https://colorful-app.netlify.app/"
                         code="https://github.com/juliamj/colorful"
                     />

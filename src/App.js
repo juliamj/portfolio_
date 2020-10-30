@@ -1,5 +1,5 @@
 import React from 'react';
-// import Nav from "./components/Nav";
+import Nav from "./components/Nav";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
@@ -16,11 +16,11 @@ import './styles/Footer.css';
 function App() {
   return (
     <div className="App">
-        {/* <Nav /> */}
-        <About />
-        <Skills />
-        <Portfolio />
-        <Contact />
+        <Nav />
+          <About />
+          <Skills />
+          <Portfolio />
+          <Contact />
         {/* <Footer /> */}
     </div>
   );

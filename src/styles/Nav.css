@@ -1,15 +1,23 @@
-
+nav {
+  /* background-color: #9ebbd5; */
+  background-color: white;
+}
+  .home {
+    font-size: 1rem;
+    /* color: white; */
+  }
   @media only screen and (max-width:580px) {
     .nav-item {
       text-align: right;
     }
   }
   @media only screen and (min-width:576px) {
-    .navbar {
+    .navbar-nav {
       position: fixed;
-      top: 0;
-      right: 0;
+      top: 5px;
+      right: 5px;
       z-index: 1030;
+      font-size: 1rem;
     }
   }
   .active {
