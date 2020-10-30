@@ -1,0 +1,23 @@
+
+  @media only screen and (max-width:580px) {
+    .nav-item {
+      text-align: right;
+    }
+  }
+  @media only screen and (min-width:576px) {
+    .navbar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 1030;
+    }
+  }
+  .active {
+    /* color: rgb(0, 217, 255) !important; */
+    color: rgba(228, 222, 135, 0.966) !important;
+    /* border-bottom: 1px solid rgba(228, 222, 135, 0.562); */
+    font-weight: bold;
+  }
+  nav ul li:hover {
+    cursor: pointer;
+  }

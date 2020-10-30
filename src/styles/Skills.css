@@ -20,28 +20,7 @@
 .skills li {
     margin-bottom: 20px;
 }
-.quote-skills {
-  display: flex;
-  justify-content: center;
-}
-.quote-skills p {
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
-  /* line-height: 2rem; */
-  width: 650px;
-  margin-right: 20px;
-  padding: 20px;
-  font-style: italic;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10%;
-  /* box-shadow: 0 2px 4px 0 rgba(24, 92, 156, 0.418); */
-  /* box-shadow: 0 2px 4px 0 rgba(176, 228, 117, 0.418); */
-}
-.autor {
-  font-size: 0.8rem;
-  font-weight: normal;
-}
+
 
 @media only screen and (min-width:1350px) {
     .skills-flex {

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skills(props) {
     return (
-        <div className="skills">
+        <div id="skills-scroll" className="skills">
             <div className="section">
                 <h1 className="heading">My Technical Skills</h1>
                 <div className="skills-flex-container">

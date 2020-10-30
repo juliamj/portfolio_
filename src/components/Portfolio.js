@@ -6,7 +6,7 @@ import cms from '../images/CMS.png';
 
 function Portfolio(props) {
     return (
-        <div className="portfolio">
+        <div id="portfolio-scroll" className="portfolio">
             <div className="section-projects">
                 <h1 className="heading">My Projects</h1>
                 <div className="projects">
