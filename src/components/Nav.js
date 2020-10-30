@@ -4,8 +4,8 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 function Nav(props) {
     return (
         <div className="navbar-out">
-            <nav className="navbar navbar-expand-sm navbar-light fixed-top">
-                <div onClick={() => scroll.scrollToTop()} className="navbar-brand pointer">Home</div>
+            <nav className="navbar navbar-light navbar-expand-sm fixed-top">
+                <div onClick={() => scroll.scrollToTop()} className="navbar-brand pointer home">Home</div>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

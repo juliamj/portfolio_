@@ -1,4 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
+// import lola from '../videos/lola.mp4';
 
 function Project(props) {
     const skills = [];
@@ -8,7 +11,10 @@ function Project(props) {
     props.skill4 ? skills.push(props.skill4) : console.log("no skill")
     props.skill5 ? skills.push(props.skill5) : console.log("no skill")
     props.skill6 ? skills.push(props.skill6) : console.log("no skill")
-
+    const [open, setOpen] = useState(false);
+ 
+    const onOpenModal = () => setOpen(true);
+    const onCloseModal = () => setOpen(false);
     return (
         <div className="project-container">
             <div className="project-left">
@@ -24,7 +30,14 @@ function Project(props) {
                 <div>
                     {props.preview === undefined ? (<div className="view-project"><a className="link live" href={props.live} target="_blank">VIEW LIVE</a>
                     <a className="link" href={props.code} target="_blank">CODE</a></div>) : 
-                    (<div className="view-project"><a className="link" href={props.preview} target="_blank">PREVIEW</a>
+                    (<div className="view-project"><div onClick={onOpenModal} className="link pointer">{props.preview}</div>
+                    {/* <Modal open={open} onClose={onCloseModal} center>
+                      <h2>Lola</h2>                   
+                        <video width="100%" height="100%" controls autoplay>
+                            <source src={lola} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                        </video>
+                    </Modal> */}
                     <a className="link live" href={props.live} target="_blank">VIEW LIVE</a>
                     <a className="link" href={props.code} target="_blank">CODE</a></div>)
                     }
