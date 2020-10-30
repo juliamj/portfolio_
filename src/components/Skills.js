@@ -2,13 +2,13 @@ import React from 'react';
 
 function Skills(props) {
     return (
-        <div className="skills">
+        <div id="skills-scroll" className="skills">
             <div className="section">
                 <h1 className="heading">My Technical Skills</h1>
                 <div className="skills-flex-container">
                     <div className="skills-flex">
                         <div>
-                            <ul className="nobull">
+                            <ul className="">
                                 <li><span>JavaScript</span></li>
                                 <li><span>React.js</span></li>
                                 <li><span>HTML5</span></li>
@@ -16,7 +16,7 @@ function Skills(props) {
                             </ul>
                         </div>
                         <div>
-                            <ul className="nobull">
+                            <ul className="">
                                 <li><span>Bootstrap</span></li>
                                 <li><span>React Bootstrap</span></li>
                                 <li><span>Grommet</span></li>
@@ -26,7 +26,7 @@ function Skills(props) {
                     </div>
                     <div className="skills-flex">
                         <div>
-                            <ul className="nobull">
+                            <ul className="">
                                 <li><span>Node.js / Express</span></li>
                                 <li><span>RESTful API's</span></li>
                                 <li><span>MongoDB / Mongoose</span></li>
@@ -34,7 +34,7 @@ function Skills(props) {
                             </ul>
                         </div>
                         <div>
-                            <ul className="nobull">
+                            <ul className="">
                                 <li><span>Git</span></li>
                                 <li><span>GitHub</span></li>
                                 <li><span>CMS-Contentful</span></li>

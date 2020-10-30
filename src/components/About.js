@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 function About() {
     return (
-        <div className="about mb-4">
+        <div id="about-scroll" className="about mb-4">
             <div className="section">
                 <div className="flex">
                     <div className="about-left pr-5">
@@ -51,7 +51,7 @@ function About() {
                         </p>
                         <div className="quote-about pt-3 mb-5">
                             <p>
-                                "The process of developing software and composing music is, I think, alike in many ways. First the combination of single fragments will create a great experience for your eyes or ears. You can express and pass information or emotions to many others."
+                                "The process of developing software and composing music are, I think, alike in many ways. First the combination of single fragments will create a great experience for your eyes or ears. You can express and pass information or emotions to many others."
                             </p>
                         </div>
                     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact(props) {
     return (
-        <div className="contact">
+        <div id="contact-scroll" className="contact">
             <div className="section">
                 <h1 className="heading">Contact me</h1>
                 <div className="contact-container">
