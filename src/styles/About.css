@@ -25,12 +25,12 @@
     /* color: #55C39E;; */
     /* color: rgba(24, 92, 156, 0.418); */
     /* color:rgba(24, 92, 156, 0.418); */
-    color:rgba(0, 0, 0, 0.308);
+    color:#387ca386;
     font-size: 1.2rem;
 }
 .social-icon:hover {
     /* color: rgba(228, 222, 135, 0.61); */
-    color: #55c39ea1;
+    color: #387CA3;
     cursor: pointer;
 }
 .quote-about {
@@ -91,13 +91,13 @@
     }
     .social-icon {
         /* color: rgba(24, 92, 156, 0.418); */
-        color: rgba(0, 0, 0, 0.308);
+        color: #387ca386;
         font-size: 1.6rem;
         padding-right: 6rem;
         padding-left: 1rem;
     }
     .social-icon:hover {
-    color: #55c39ea1;
+    color: #387CA3;
     }
     .text-big {
         font-size: 2.1rem;
