@@ -18,8 +18,8 @@ function Skills(props) {
                         <div>
                             <ul className="nobull">
                                 <li><span>Bootstrap</span></li>
-                                <li><span>React Bootstrap</span></li>
                                 <li><span>Grommet</span></li>
+                                <li><span>React Bootstrap</span></li>
                                 <li><span>Responsive Webdesign</span></li>
                             </ul>
                         </div>
@@ -27,9 +27,9 @@ function Skills(props) {
                     <div className="skills-flex">
                         <div>
                             <ul className="nobull">
+                                <li><span>MongoDB / Mongoose</span></li>
                                 <li><span>Node.js / Express</span></li>
                                 <li><span>RESTful API's</span></li>
-                                <li><span>MongoDB / Mongoose</span></li>
                                 <li><span>SQL</span></li>
                             </ul>
                         </div>
