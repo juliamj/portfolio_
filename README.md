@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-![Screenshot of Portfolio-Website](./src/images/readme.png)
+![Screenshot of Portfolio-Website](readme.png)
 ## Available Scripts
 
 In the project directory, you can run:
