@@ -29,7 +29,6 @@ function Portfolio(props) {
                         skill1="React.js"
                         skill2="Grommet"
                         img={colorful}
-                        preview=""
                         live="https://colorful-app.netlify.app/"
                         code="https://github.com/juliamj/colorful"
                     />

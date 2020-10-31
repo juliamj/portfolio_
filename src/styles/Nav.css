@@ -22,7 +22,8 @@ nav {
   }
   .active {
     /* color: rgb(0, 217, 255) !important; */
-    color: rgba(228, 222, 135, 0.966) !important;
+    /* color: rgba(228, 222, 135, 0.966) !important; */
+    color: #5db39c !important;
     /* border-bottom: 1px solid rgba(228, 222, 135, 0.562); */
     font-weight: bold;
   }

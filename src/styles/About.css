@@ -21,12 +21,16 @@
 .social-icon {
     /* padding-left: 15px; */
     padding-top: 15px;
-    color: rgba(12, 56, 107, 0.308);
+    /* color: rgba(12, 56, 107, 0.308); */
+    /* color: #55C39E;; */
     /* color: rgba(24, 92, 156, 0.418); */
+    /* color:rgba(24, 92, 156, 0.418); */
+    color:rgba(0, 0, 0, 0.308);
     font-size: 1.2rem;
 }
 .social-icon:hover {
-    color: rgba(228, 222, 135, 0.61);
+    /* color: rgba(228, 222, 135, 0.61); */
+    color: #55c39ea1;
     cursor: pointer;
 }
 .quote-about {
@@ -64,7 +68,7 @@
       display: block;
     }
     .about-right {
-        border-left: 3px solid rgba(12, 56, 107, 0.089);
+        border-left: 3px solid rgba(0, 0, 0, 0.082);
       }
     .about-right p {
     margin-left: 2rem;
@@ -86,13 +90,14 @@
         flex-direction: column;
     }
     .social-icon {
-        color: rgba(12, 56, 107, 0.308);
+        /* color: rgba(24, 92, 156, 0.418); */
+        color: rgba(0, 0, 0, 0.308);
         font-size: 1.6rem;
         padding-right: 6rem;
         padding-left: 1rem;
     }
     .social-icon:hover {
-    color: rgba(228, 222, 135, 0.767);
+    color: #55c39ea1;
     }
     .text-big {
         font-size: 2.1rem;
