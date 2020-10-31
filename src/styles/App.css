@@ -1,6 +1,7 @@
 .App {
   margin: auto;
   color: rgba(0, 0, 0, 0.664);
+  /* color: #387CA3; */
   /* font-size: 12px; */
 }
 
@@ -13,12 +14,28 @@
 }
 
 .highlight-blue {
+  /* color: rgba(24, 92, 156, 0.418); */
+  color: #55c39ea1;
+  /* color:#52ADC8; */
+  /* color: #55C39E; */
+  /* color: #52acc8a8; */
+  /* color: #5db39c; */
+  font-weight: bold;  
+}
+.highlight-medium {
   color: rgba(24, 92, 156, 0.418);
+  /* color:#5DB39C; */
   font-weight: bold;  
 }
 .highlight-light {
-  color: rgba(228, 222, 135, 0.61);
-  font-weight: bold;
+  /* color: rgba(228, 222, 135, 0.61); */
+  /* color: #5db39c; */
+  /* color: #FFD447; */
+  /* color: #FED18C; */
+  /* color: #55C39E; */
+  /* color: #55c39e; */
+  /* color: rgba(24, 92, 156, 0.418); */
+  /* font-weight: bold; */
 }
 
 .paragraph {
