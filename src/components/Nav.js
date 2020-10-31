@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import fav from '../images/favicon.ico';
 
 function Nav(props) {
     return (
         <div className="navbar-out">
             <nav className="navbar navbar-light navbar-expand-sm fixed-top">
-                <div onClick={() => scroll.scrollToTop()} className="navbar-brand pointer home">Home</div>
+                <div onClick={() => scroll.scrollToTop()} className="navbar-brand pointer home">
+                    <img className="" src={fav} />
+                </div>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
