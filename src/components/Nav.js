@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import fav from '../images/favicon2.ico';
+import fav from '../images/favicon.ico';
 
 function Nav(props) {
     return (

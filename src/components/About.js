@@ -49,11 +49,6 @@ function About() {
                             <span className="highlight-light"> user experience </span>
                             . Being confronted with new challenges, the wide range of knowledge and technologies, as well as being surrounded by the lively tech community, motivates and inspires me.
                         </p>
-                        {/* <div className="quote-about pt-3 mb-5">
-                            <p>
-                                "The process of developing software and composing music are, I think, alike in many ways. First the combination of single fragments will create a great experience for your eyes or ears. You can express and pass information or emotions to many others."
-                            </p>
-                        </div> */}
                     </div>
                 </div>
             </div>
