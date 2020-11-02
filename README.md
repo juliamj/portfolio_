@@ -19,3 +19,10 @@
 
 - [React-Scroll](https://www.npmjs.com/package/react-scroll)
 - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
+
+## Challenges
+
+- Choose meaningful classes and classnames
+- Reusability of components
+- Decide for clean and simple design and color combination
+- Make Website fully responsive
