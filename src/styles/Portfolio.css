@@ -1,9 +1,6 @@
 .portfolio {
-    /* background-color: rgba(206, 231, 235, 0.219); */
     padding-top: 10vh;
     padding-bottom: 10vh;
-    /* padding-bottom: 20vh; */
-    /* height: 100vh; */
 }
 .section-projects {
     width: 70vw;
@@ -11,8 +8,6 @@
     margin: auto;
   }
   .project-container {
-    /* background-color: rgba(255, 255, 255, 0.295); */
-    /* background-color: rgba(24, 92, 156, 0.418); */
     background-color: #387CA3;
     color: white;
     box-shadow: 0 4px 6px 2px rgba(34, 60, 80, .16);
@@ -21,10 +16,7 @@
     font-size: 12px;
 }
 .project-container:hover {
-    /* background-color: rgba(206, 231, 235, 0.219); */
-    /* background-color: rgba(24, 92, 156, 0.555); */
     background-color: #387ca3e5;
-    /* background-color: rgba(228, 222, 135, 0.24); */
 }
 
 .tech-stack {
@@ -32,16 +24,10 @@
     flex-wrap: wrap;
 }
 .tech-stack li span {
-    /* background-color: rgba(24, 92, 156, 0.418); */
     color:  white;
     font-size: 1.2em;
     padding: 5px 5px;
     border-radius: 10%;
-    /* box-shadow: 0 2px 4px 0 rgba(34, 60, 80, .16); */
-    /* box-shadow: 0 2px 4px 0 rgba(24, 92, 156, 0.151); */
-    /* box-shadow: 0 2px 4px 0 rgba(228, 222, 135, 0.61); */
-    /* box-shadow: 0 2px 4px 0 #55C39E; */
-    /* background-color: #55c39e3f; */
     box-shadow: 0 2px 4px 0  #52acc854;
     background-color: #52acc82c;
     transition: all ease-in-out .2s;
@@ -56,8 +42,7 @@
     }
     .project-container:hover {
         width: 61%;
-    }
-    
+    }    
     .project-image{
         padding: 0 40px;
         width: 100%;
@@ -78,8 +63,7 @@
     }
     .project-container:hover {
         width: 91%;
-    }
-    
+    }    
     .project-image{
         padding: 0 40px;
         width: 100%;
@@ -97,7 +81,6 @@
 .project-left {
     width: 60%;
 }
-
 .project-right {
     width: 40%;
     display: flex;
@@ -134,7 +117,6 @@
   }
 }
 
-
 .view-project {
     display: flex;
     justify-content: space-around;
@@ -143,7 +125,6 @@
     padding: 10px;
     font-size: 1rem;
 }
-
 .link {
     /* color:  rgba(0, 0, 0, 0.664); */
     /* color: rgba(24, 92, 156, 0.418); */
@@ -160,24 +141,12 @@
 }
 .image-hover:hover + div div a.live {
     text-decoration: underline;
-    /* color: rgba(24, 92, 156, 0.76); */
-    /* color: rgba(228, 222, 135, 0.61); */
-    /* color: #55C39E; */
     color: white;
 }
-/* .project-left h2 {
-    margin: 30px 0 10px 40px;
-    letter-spacing: 0.2rem;
-    font-size: 2.1rem;
-    font-weight: bold;
-} */
 .description {
     font-size: 1.4em;
     margin: 20px 30px 40px 40px;
 }
-
-
-
 .projects {
     display: flex;
     flex-direction: column;

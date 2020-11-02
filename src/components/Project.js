@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'react-responsive-modal/styles.css';
-import { Modal } from 'react-responsive-modal';
+// import { Modal } from 'react-responsive-modal';
 // import lola from '../videos/lola.mp4';
 
 function Project(props) {

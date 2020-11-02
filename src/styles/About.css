@@ -1,8 +1,6 @@
 .about {
-    /* background-color: aquamarine; */
     margin-top: 10%;
     min-height: 90vh;
-    /* margin-bottom: 10vh; */
 }
 
 /* ABOUT LEFT */
@@ -19,17 +17,11 @@
     justify-content: space-around;
 }
 .social-icon {
-    /* padding-left: 15px; */
     padding-top: 15px;
-    /* color: rgba(12, 56, 107, 0.308); */
-    /* color: #55C39E;; */
-    /* color: rgba(24, 92, 156, 0.418); */
-    /* color:rgba(24, 92, 156, 0.418); */
     color:#387ca386;
     font-size: 1.2rem;
 }
 .social-icon:hover {
-    /* color: rgba(228, 222, 135, 0.61); */
     color: #387CA3;
     cursor: pointer;
 }
@@ -47,12 +39,9 @@
   font-style: italic;
   font-weight: bold;
   text-align: end;
-  /* box-shadow: 0 2px 4px 0 rgba(24, 92, 156, 0.418); */
-  /* box-shadow: 0 2px 4px 0 rgba(176, 228, 117, 0.418); */
 }
 /* ABOUT RIGHT */
 .about-right {
-    /* min-height: 100vh; */
     height: 100%;
   }   
   @media only screen and (min-width:1120px) {
@@ -90,7 +79,6 @@
         flex-direction: column;
     }
     .social-icon {
-        /* color: rgba(24, 92, 156, 0.418); */
         color: #387ca386;
         font-size: 1.6rem;
         padding-right: 6rem;

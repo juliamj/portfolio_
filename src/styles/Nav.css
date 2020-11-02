@@ -1,10 +1,8 @@
 nav {
-  /* background-color: #9ebbd5; */
   background-color: white;
 }
   .home {
     font-size: 1rem;
-    /* color: white; */
   }
   @media only screen and (max-width:580px) {
     .nav-item {
@@ -21,10 +19,7 @@ nav {
     }
   }
   .active {
-    /* color: rgb(0, 217, 255) !important; */
-    /* color: rgba(228, 222, 135, 0.966) !important; */
     color: #387CA3 !important;
-    /* border-bottom: 1px solid rgba(228, 222, 135, 0.562); */
     font-weight: bold;
   }
   nav ul li:hover {
