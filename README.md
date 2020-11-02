@@ -1,3 +1,21 @@
-[View Portfolio Website](https://juliamj.netlify.app/)
+# Portfolio-Website
+
 
 ![Screenshot of Portfolio-Website](readme.png)
+
+## Live Demo
+[View my Portfolio Website here](https://juliamj.netlify.app/)
+
+## Objectives
+
+- Display projects I have developed
+- Practice responsive Webdesign
+
+## Built with
+
+- React.js
+- Custom CSS
+- Bootstrap
+
+- [React-Scroll](https://www.npmjs.com/package/react-scroll)
+- [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
