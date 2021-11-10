@@ -27,17 +27,15 @@ function Skills(props) {
                     <div className="skills-flex">
                         <div>
                             <ul className="nobull">
-                                <li><span>MongoDB / Mongoose</span></li>
-                                <li><span>Node.js / Express</span></li>
-                                <li><span>RESTful API's</span></li>
-                                <li><span>SQL</span></li>
+                                <li><span>MongoDB</span></li>
+                                <li><span>Node.js</span></li>
+                                <li><span>Git & GitHub</span></li>
                             </ul>
                         </div>
                         <div>
                             <ul className="nobull">
-                                <li><span>Git</span></li>
-                                <li><span>GitHub</span></li>
-                                <li><span>CMS-Contentful</span></li>
+                                <li><span>UX & UI Design</span></li>
+                                <li><span>Adobe XD</span></li>
                             </ul>
                         </div>
                     </div>
