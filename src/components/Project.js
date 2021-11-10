@@ -26,10 +26,10 @@ function Project(props) {
                 </ul>
             </div>
             <div className="project-right">
-            <a className="image-hover" href={props.live} target="_blank"><img className="project-image" src={props.img} /></a>
+            <a className="image-hover" href={props.live} target="_blank" rel="noopener noreferrer"><img className="project-image" alt="img" src={props.img} /></a>
                 <div>
-                    {props.preview === undefined ? (<div className="view-project"><a className="link live" href={props.live} target="_blank">VIEW LIVE</a>
-                    <a className="link" href={props.code} target="_blank">CODE</a></div>) : 
+                    {props.preview === undefined ? (<div className="view-project"><a className="link live" href={props.live} target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                    <a className="link" href={props.code} target="_blank" rel="noopener noreferrer">CODE</a></div>) : 
                     (<div className="view-project"><div onClick={onOpenModal} className="link pointer">{props.preview}</div>
                     {/* <Modal open={open} onClose={onCloseModal} center>
                       <h2>Lola</h2>                   
@@ -38,8 +38,8 @@ function Project(props) {
                                     Your browser does not support the video tag.
                         </video>
                     </Modal> */}
-                    <a className="link live" href={props.live} target="_blank">VIEW LIVE</a>
-                    <a className="link" href={props.code} target="_blank">CODE</a></div>)
+                    <a className="link live" href={props.live} target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                    <a className="link" href={props.code} target="_blank" rel="noopener noreferrer">CODE</a></div>)
                     }
                 </div>
             </div>

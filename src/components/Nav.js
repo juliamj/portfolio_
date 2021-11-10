@@ -7,7 +7,7 @@ function Nav(props) {
         <div className="navbar-out">
             <nav className="navbar navbar-light navbar-expand-sm fixed-top">
                 <div onClick={() => scroll.scrollToTop()} className="navbar-brand pointer home">
-                    <img className="" src={fav} />
+                    <img className="" alt="img" src={fav} />
                 </div>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

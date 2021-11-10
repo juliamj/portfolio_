@@ -8,12 +8,12 @@ function About() {
             <div className="section">
                 <div className="flex">
                     <div className="about-left pr-5">
-                        <img className="profile-picture mt-4 mb-2" src={profile} />
+                        <img className="profile-picture mt-4 mb-2" alt="img" src={profile} />
                         <div className="c-social-icons">
-                            <a className="social-icon" href="https://www.linkedin.com/in/juliamj" target="_blank">
+                            <a className="social-icon" href="https://www.linkedin.com/in/juliamj" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin-in"></i>
                             </a>
-                            <a className="social-icon" href="https://www.github.com/juliamj" target="_blank">
+                            <a className="social-icon" href="https://www.github.com/juliamj" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-github"></i>
                             </a>
                             <Link
