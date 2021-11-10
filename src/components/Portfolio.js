@@ -13,7 +13,7 @@ function Portfolio(props) {
         <div className="projects">
           <Project
             heading="SERO-Karte"
-            description="SERO-karte is a crowd-sourcing project, a digital map, through which everyone is invited to share their Zero Waste insider tips in Berlin. The idea behind this map is to create a helpful tool, through which the transition towards the Zero Waste lifestyle can be as easy as possible. The project was born during a climathon in November 2020. Amongst other tasks I have been responsible for the frontend development with JavaScript and the UX & UI design using Adobe XD."
+            description="SERO-karte is a digital map which invites everyone to share their Zero Waste insider tips in Berlin. The idea behind this map is to create a helpful tool, through which the transition towards the Zero Waste lifestyle can be as easy as possible. The project was born during a climathon in November 2020. Among other tasks I am responsible for the frontend development and the UX & UI design."
             skill1="JavaScript"
             skill2="Adobe XD"
             img={serokarte}
