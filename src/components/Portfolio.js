@@ -9,7 +9,7 @@ function Portfolio(props) {
   return (
     <div id="portfolio-scroll" className="portfolio">
       <div className="section-projects">
-        <h1 className="heading">My Projects</h1>
+        <h1 className="heading">My Projects Test</h1>
         <div className="projects">
           <Project
             heading="SERO-Karte"
